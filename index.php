@@ -24,10 +24,10 @@
                     </ul>
                 </div>
                 <div class="col-4 my-3">
-                    <input class="form-control" type="text" placeholder="INSERISCI UNA TASK">
+                    <input class="form-control" v-model="doElem" type="text" placeholder="INSERISCI UNA TASK" @keyup.enter="addTool()">
                 </div>
                 <div class="col-4 my-3">
-                    <button class="btn btn-success">INVIA</button>
+                    <button @click="addTool()" class="btn btn-success" type="button">INVIA</button>
                 </div>
             </div>
         </div>
