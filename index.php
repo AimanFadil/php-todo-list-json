@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-12">
                     <ul class="list-group">
-                        <li v-for="list , key in listona" :key="key">{{ list.nome }}</li>
+                        <li v-for="list, key in listona" :key="key" class="list-group-item">{{ list.nome }}</li>
                     </ul>
                 </div>
                 <div class="col-4 my-3">
