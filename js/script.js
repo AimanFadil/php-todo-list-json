@@ -25,7 +25,7 @@ createApp({
             axios.post(this.myApi, data, {
                 headers: { 'Content-type': 'multipart/form-data' }
             }).then((response) => {
-                this.myApi = response.data
+                this.listona = response.data
                 this.doElem = '';
             })
         }
